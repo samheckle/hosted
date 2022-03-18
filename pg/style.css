@@ -12,19 +12,23 @@ body {
   overflow-y: hidden;
 }
 
+.glitch-embed-wrap {
+  height: 100%;
+}
+
 @media only screen and (max-width: 480px),
   only screen and (max-device-width: 480px) {
   .glitch-embed-wrap {
     width: 100%;
     height: 100%;
   }
-  html{
-      height:100%;
-      width: 100%;
+  html {
+    height: 100%;
+    width: 100%;
   }
-  body{
-      height:100%;
-      width:100%;
-      overflow: auto;
+  body {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
   }
 }
