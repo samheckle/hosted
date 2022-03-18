@@ -1,15 +1,3 @@
-@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
-    html{
-        display: flex;
-        justify-content: center;
-        height: 100%;
-        margin: auto;
-    }
-    body{
-        margin: auto;
-    }
-}
-
 html{
     display: flex;
     justify-content: center;
@@ -20,4 +8,17 @@ html{
 body{
     margin: auto;
     overflow-y: hidden;
+}
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+    html{
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        margin: auto;
+    }
+    body{
+        margin: initial;
+        font-size: 60px;
+    }
 }
