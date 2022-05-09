@@ -11,7 +11,12 @@
 //     .then((response) => response.json())
 //     .then((data) => console.log(data))
 
-fetch("https://minimal-python3-flask.glitch.me/",{mode: 'cors'})
+fetch("https://minimal-python3-flask.glitch.me/", {
+  mode: "cors",
+  headers: {
+    "Access-Control-Allow-Origin": "*",
+  },
+})
   .then((response) => response.json())
   .then((data) => console.log(data));
 // fetch(url, {
