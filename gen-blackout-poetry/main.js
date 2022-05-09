@@ -11,7 +11,7 @@
 //     .then((response) => response.json())
 //     .then((data) => console.log(data))
 
-fetch("https://minimal-python3-flask.glitch.me/",{mode: 'no-cors'})
+fetch("https://minimal-python3-flask.glitch.me/")
   .then((response) => response.json())
   .then((data) => console.log(data));
 // fetch(url, {
